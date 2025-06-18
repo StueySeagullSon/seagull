@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Stuey's Seagull Son</title>
+
+    <style>
+      /* Basic CSS to make the game truly fullscreen and disable annoyances */
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevents scrollbars from appearing */
+        height: 100%;
+        background-color: #111;
+      }
+      /* This modern CSS property is great for web games */
+      body {
+        /* Prevents pull-to-refresh and overscroll glow on mobile */
+        overscroll-behavior: none;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/addons/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+  </head>
+
+  <body>
+    <main></main>
+  </body>
+</html>
