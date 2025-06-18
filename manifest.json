@@ -1,0 +1,15 @@
+{
+  "short_name": "Stuey's Son",
+  "name": "Stuey's Seagull Son",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#87CEFA",
+  "background_color": "#111111"
+}
